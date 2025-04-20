@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profilepic.jpg" alt="sai" width="100" class="avatar" style="border-radius: 20%;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="sai">Karnati Sai Aditya</h1>
+
+          <p class="title">Full Stack Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="karnatisaiaditya@gmail.com" class="contact-link">karnatisaiaditya@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 9063042107" class="contact-link">+91 9063042107</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-07-21">July 21, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hyderabad, Telangana, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/people/Karnati-Sai-Aditya/pfbid0Tp3b5YXsSARHSyWGD3zmfKuHcKAWXFSBg9fYAdH3N4SxMJd6RzDKf6KBNYNnow7pl/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/ksaiaditya210704" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/saiadityakarnati" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/karnatisaiaditya/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/ksaiaditya" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+
+          <li class="social-item">
+            <a href="./assets/files/cv.pdf" class="social-link" download>
+              <ion-icon name="document-text-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Full Stack Developer with a passion for building seamless digital experiences across web and mobile
+            platforms.
+            I specialize in crafting dynamic, responsive, and user-focused applications that merge clean code with
+            elegant design.
+            Whether it’s frontend development or backend logic, I enjoy solving real-world problems with scalable and
+            efficient solutions.
+
+
+          </p>
+
+          <p>
+            My job is to develop websites and applications that not only function flawlessly but also feel intuitive and
+            engaging to use.
+            From creating powerful APIs to designing interactive user interfaces, I ensure every project is robust,
+            user-friendly, and visually appealing.
+            I’m always exploring the latest technologies to bring innovative ideas to life..
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+           
+
+          </ul>
+
+        </section>
+
+
+        
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Skills & Tools</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+
+
+            <ul class="clients-list">
+
+              <!-- HTML -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    alt="HTML logo"></a>
+                <span>HTML</span>
+              </li>
+
+              <!-- CSS -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    alt="CSS logo"></a>
+                <span>CSS</span>
+              </li>
+
+              <!-- JavaScript -->
+              <li class="clients-item">
+                <a href="#"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="JavaScript logo"></a>
+                <span>JavaScript</span>
+              </li>
+
+              <!-- React -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    alt="React logo"></a>
+                <span>React</span>
+              </li>
+
+              <!-- Node.js -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    alt="Node.js logo"></a>
+                <span>Node.js</span>
+              </li>
+
+              <!-- Express.js -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    alt="Express.js logo"></a>
+                <span>Express</span>
+              </li>
+
+              <!-- MongoDB -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                    alt="MongoDB logo"></a>
+                <span>MongoDB</span>
+              </li>
+
+              <!-- MySQL -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                    alt="MySQL logo"></a>
+                <span>MySQL</span>
+              </li>
+
+              <!-- Python -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                    alt="Python logo"></a>
+                <span>Python</span>
+              </li>
+
+              <!-- PHP -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                    alt="PHP logo"></a>
+                <span>PHP</span>
+              </li>
+
+              <!-- C -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                    alt="C logo"></a>
+                <span>C</span>
+              </li>
+
+              <!-- C++ -->
+              <li class="clients-item">
+                <a href="#"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                    alt="C++ logo"></a>
+                <span>C++</span>
+              </li>
+
+              <!-- Bootstrap -->
+              <li class="clients-item">
+                <a href="#"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                    alt="Bootstrap logo"></a>
+                <span>Bootstrap</span>
+              </li>
+
+              <!-- Git -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                    alt="Git logo"></a>
+                <span>Git</span>
+              </li>
+
+              <!-- GitHub -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    alt="GitHub logo"></a>
+                <span>GitHub</span>
+              </li>
+
+              <!-- VS Code -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                    alt="VS Code logo"></a>
+                <span>VS Code</span>
+              </li>
+
+              <!-- Tableau -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"
+                    alt="Tableau logo"></a>
+                <span>Tableau</span>
+              </li>
+
+              <!-- Power BI -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.worldvectorlogo.com/logos/power-bi-1.svg" alt="Power BI logo"></a>
+                <span>Power BI</span>
+              </li>
+
+              <!-- Figma -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                    alt="Figma logo"></a>
+                <span>Figma</span>
+              </li>
+
+              <!-- IntelliJ -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"
+                    alt="IntelliJ logo"></a>
+                <span>IntelliJ</span>
+              </li>
+
+              <!-- Eclipse -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg"
+                    alt="Eclipse logo"></a>
+                <span>Eclipse</span>
+              </li>
+
+              <!-- Apache Tomcat -->
+              <li class="clients-item">
+                <a href="#"><img src="https://cdn.worldvectorlogo.com/logos/tomcat.svg" alt="Tomcat logo"></a>
+                <span>Tomcat</span>
+              </li>
+
+            </ul>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lovely Professional University – B.Tech in Computer Science and Engineering (Full Stack Development)</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                Specializing in Full Stack Development, learning to build scalable web applications using modern technologies across frontend and backend, while actively working on real-world projects and interdisciplinary innovations.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Narayana Junior College – 12th Standard (Intermediate Education)</h4>
+
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+                Focused on advanced mathematics, physics, and computer science fundamentals. Graduated with 96%, strengthening analytical and logical thinking skills essential for programming and development.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Narayana Concept School – 10th Standard</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                Achieved a perfect 10 CGPA in my 10th standard. Focused on building a strong academic foundation across core subjects, which helped shape my future academic pursuits.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Summer Training (Cipher Schools)</h4>
+
+              <span>Jun 2024 — Aug 2024</span>
+
+              <p class="timeline-text">
+                Completed an integrated Python, Data Science & Machine Learning course. Gained hands-on experience in data science workflows, machine learning models, and data visualization using Python and Tableau, enhancing analytical and programming skills
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Startup Development (Wavefare Delights)</h4>
+
+              <span>Dec 2023 — Mar 2024</span>
+
+              <p class="timeline-text">
+                Collaborated in a five-member team to develop and pitch the "Wavefare Delights" startup. Contributed to the design and launch of a fully functional e-commerce website, demonstrating leadership and innovation. Secured funding from the university for the project.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+        
+            <h3 class="h3">Extracurricular Activities</h3>
+          </div>
+        
+          <ol class="timeline-list">
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Smart India Hackathon – Participant</h4>
+        
+              <span>2024</span>
+        
+              <p class="timeline-text">
+                Contributed to solving real-world challenges using innovative tech solutions in a national-level hackathon. Collaborated with a diverse team to ideate, design, and pitch a functional prototype addressing a real-time problem statement.
+              </p>
+        
+            </li>
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Math Tutor – NGO Volunteer</h4>
+        
+              <span>2023</span>
+        
+              <p class="timeline-text">
+                Taught mathematics to underprivileged students, helping them improve their academic performance. Focused on building foundational concepts and boosting student confidence through personalized guidance.
+              </p>
+        
+            </li>
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Academic Viva – Stock Market & Programming</h4>
+        
+              <span>2024</span>
+        
+              <p class="timeline-text">
+                Participated in an academic viva, showcasing knowledge of stock market analysis and programming concepts. Demonstrated strong communication skills and technical understanding.
+              </p>
+        
+            </li>
+        
+          </ol>
+        
+        </section>
+        
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card"></ul>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Full Stack Web Development</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python for Data Science & ML</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Visualization</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Database Management (SQL & NoSQL)</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="blog" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://github.com/ksaiaditya/my-chatbot">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pro1.png" alt="chatbot" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">chatbot</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-07-28">Jul 28, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">An intelligent conversational assistant built using modern LLM technologies.</h3>
+
+                  <p class="blog-text">
+                    This chatbot leverages Ollama to run local LLMs and uses LangChain to handle dynamic 
+                    prompt chaining and context management. Designed to be lightweight, private, and fully offline, 
+                    it demonstrates how modern language models can be integrated into CLI tools without relying on cloud APIs.
+                    Whether you're exploring LLMs or building your own AI toolchain, 
+                    this project is a great starting point for local-first AI applications.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://github.com/ksaiaditya/Coffee-Insights-Tableau/tree/main">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pro2.png" alt="Tableau" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Data visualization</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-06-23">Jun 23, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Coffee-Insights-Tableau
+                  </h3>
+
+                  <p class="blog-text">
+                    This project leverages Tableau to create a visually appealing and insightful dashboard
+                     based on coffee sales data. The dashboard provides comprehensive analysis on sales trends, 
+                     market dynamics, and product performance, using a coffee-themed color palette for enhanced visual appeal.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="https://github.com/ksaiaditya/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pro3.png" alt="portfolio" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">portfolio</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-06-23">Jun 23, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Portfolio
+                  </h3>
+
+                  <p class="blog-text">
+                    This portfolio showcases my skills and projects as a Full Stack Developer. 
+                    It includes sections for my resume, projects, and certificates, all designed with a modern and responsive layout.
+                    The portfolio is built using HTML, CSS, and JavaScript, demonstrating my proficiency in web development.
+                    The design is clean and user-friendly, ensuring easy navigation and accessibility.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CERTIFICATES
+      -->
+
+      <article class="portfolio" data-page="certificates">
+
+        <header>
+          <h2 class="h2 article-title">Certificates</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Ds&Ml</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Cse fundamentals</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Ai</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Ds & Ml</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Cse fundamentals</button>
+              </li>
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="cse fundamentals">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cer1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">The Bits and Bytes</h3>
+
+                <p class="project-category">Computer Networking</p>
+
+              </a>
+            </li>
+
+            
+            <li class="project-item active" data-filter-item data-category="ai">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer2.png" alt="web development basics" loading="lazy">
+                </figure>
+                <h3 class="project-title">Build Ai Apps with Chat Gpt, Dall-E ,and Gpt-4</h3>
+                <p class="project-category">Artificial Intelligence</p>
+              </a>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="ds&ml">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer3.png" alt="data science essentials" loading="lazy">
+                </figure>
+                <h3 class="project-title">ChatGpt Advance Data Analysis</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="cse fundamentals">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer4.png" alt="machine learning fundamentals" loading="lazy">
+                </figure>
+                <h3 class="project-title">ChatGpt for Beginners: save time with Microsoft Excel</h3>
+                <p class="project-category">Microsoft Excel</p>
+              </a>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="ai">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer5.png" alt="artificial intelligence" loading="lazy">
+                </figure>
+                <h3 class="project-title">ChatGPT Playground for Beginners: Intro to NPL AI</h3>
+                <p class="project-category">Artificial Intelligence</p>
+              </a>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="cse fundamentals">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer6.png" alt="computer networks" loading="lazy">
+                </figure>
+                <h3 class="project-title">Static Routing Configuration Using Packet Tracer</h3>
+                <p class="project-category">Computer Networking</p>
+              </a>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="ds&ml">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer7.png" alt="ds" loading="lazy">
+                </figure>
+                <h3 class="project-title">Data Science Professional</h3>
+                <p class="project-category">itronix Solution</p>
+              </a>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="cse fundamentals">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer8.png" alt="database management systems" loading="lazy">
+                </figure>
+                <h3 class="project-title">SQL for Data Science</h3>
+                <p class="project-category">Database Management</p>
+              </a>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="ds&ml">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer9.png" alt="deeplearning" loading="lazy">
+                </figure>
+                <h3 class="project-title">Deep Learning</h3>
+                <p class="project-category">Ml</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="cse fundamentals">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer10.png" alt="ethical hacking" loading="lazy">
+                </figure>
+                <h3 class="project-title">Ethical Hackinh</h3>
+                <p class="project-category">Cyber security</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer11.png" alt="genai" loading="lazy">
+                </figure>
+                <h3 class="project-title">GenAI for Everyone</h3>
+                <p class="project-category">Artificial Intelligence</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="ai">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer12.png" alt="ai" loading="lazy">
+                </figure>
+                <h3 class="project-title">Generative AI For Everyone</h3>
+                <p class="project-category">Artificial Intelligence</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="ai">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cer13.png" alt="ai" loading="lazy">
+                </figure>
+                <h3 class="project-title">Promt Engineering for ChatGPT</h3>
+                <p class="project-category">Artificial Intelligence</p>
+              </a>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.34203263032!2d78.24323484117343!3d17.412281017636605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1744806038401!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form id="customForm" class="form">
+            <div class="input-wrapper">
+              <input type="text" id="fullname" name="fullname" class="form-input" placeholder="Full name" required>
+              <input type="email" id="email" name="email" class="form-input" placeholder="Email address" required>
+            </div>
+
+            <textarea id="message" name="message" class="form-input" placeholder="Your Message" required></textarea>
+
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
